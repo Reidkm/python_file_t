@@ -1,0 +1,2 @@
+export OPENNI2_INCLUDE=/home/kiktech1/test_socket_openni2/AXonOpenNI-Linux-x64-2.3/Include
+export OPENNI2_REDIST=/home/kiktech1/test_socket_openni2/AXonOpenNI-Linux-x64-2.3/Redist

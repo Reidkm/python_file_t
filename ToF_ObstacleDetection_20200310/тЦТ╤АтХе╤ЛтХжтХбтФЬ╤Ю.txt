@@ -1,0 +1,20 @@
+1.The simplest way of installing Cython is by using pip:
+
+pip install Cython
+
+
+2. Cython 程序的扩展名是 .pyx
+
+
+3.Cython 程序需要先编译之后才能被 Python 调用，
+只需要执行下面命令就可以把 Cython 程序编译成动态链接库了。
+
+python setup.py build_ext --inplace
+
+运行完上述命令会在你的当前目录生成一个新文件，如果你的系统是 Unix，文件名为 helloworld.so，如果你的系统是 Windows，文件名为 helloworld.pyd。现在我们用一用刚生成的文件：打开 Python 的解释器（interpreter），像 import 普通文件一样直接 import 你刚生成的文件
+
+
+参考链接：
+https://moonlet.gitbooks.io/cython-document-zh_cn/content/ch1-basic_tutorial.html
+
+https://zhuanlan.zhihu.com/p/24311879
